@@ -1,0 +1,68 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.section-text {
+    color:#fff;
+}
+
+.navbar {
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #f3dc0b;
+    color: black;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #f3dc0b;
+}
+
+.navbar-toggler {
+    background-color: #f3dc0b;
+}
+
+.section-title {
+    font-family: Oswald, cursive;
+}
+
+#sobre-a-loja, #eventos, #estoque, #fale-conosco {
+    background-color: black;
+}
+
+.text-colored {
+    color: #f3dc0b;
+}
+
+.nav-estoque .nav-link.active,
+#fale-conosco button {
+    background-color: #f3dc0b;
+    color: #fff;
+}
+
+.nav-estoque .nav-link:hover {
+    color:#f3dc0b;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f3dc0b;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

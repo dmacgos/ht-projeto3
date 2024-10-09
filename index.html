@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Heart Truckers</h1>
+            <button class="navbar-toggler" data-bs-toogle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#estoque" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso estoque
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="lib/F-1502.jpg" class="d-block w-100" alt="Ford">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="lib/silverado.jpg" class="d-block w-100" alt="Chevrolet">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="lib/RAM.jpg" class="d-block w-100" alt="Ram">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://www.motortrend.com/uploads/sites/5/2021/07/2021-Ford-F-150-4x4-Lariat-FX4-Ecoboost-vs-2021-Ram-1500-4x4-Laramie-Hemi-vs-2021-Chevrolet-Silverado-1500-4x4-RST-6-2L-1.jpg" class="d-block w-100 rounded" alt="Foto da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title"><span class="text-colored">Sobre a loja</span></h2>
+                            <p class="section-text">
+                                Bem-vindo à Heart Truckrs, a sua loja especializada em picapes! Aqui, oferecemos uma ampla variedade de modelos que atendem a todos os estilos de vida e necessidades. Desde picapes robustas, perfeitas para o trabalho pesado, até as mais modernas, equipadas com tecnologia de ponta e conforto, temos a opção ideal para você. 
+                            </p>
+                            <h3 class="section-title"><span class="text-colored">Picape Center</span></h3>
+                            <p class="section-text">
+                                No nosso espaço de showroom temos diversos exemplares, dentres eles:
+                            </p>
+                            <ul>
+                                <li class="section-text">RAM 1500</li>
+                                <li class="section-text">Silverado</li>
+                                <li class="section-text">Ford F-150</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"><span class="text-colored">Para todas as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://images.hdqwalls.com/download/2022-ram-1500-trx-l5-1280x720.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-3">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Asfalto
+                        </h3>
+                        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quo odit earum voluptas itaque repellat debitis, sit quam perspiciatis dolor dignissimos distinctio, asperiores adipisci quibusdam minima enim, fugiat nesciunt. Nostrum.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://th.bing.com/th/id/OIP.yTLZ9ppuphowtBlFPYo6EQHaEK?rs=1&pid=ImgDetMain" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Off-road
+                        </h3>
+                        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quo odit earum voluptas itaque repellat debitis, sit quam perspiciatis dolor dignissimos distinctio, asperiores adipisci quibusdam minima enim, fugiat nesciunt. Nostrum.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://i.ytimg.com/vi/aaEeNc7Tn34/maxresdefault.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quo odit earum voluptas itaque repellat debitis, sit quam perspiciatis dolor dignissimos distinctio, asperiores adipisci quibusdam minima enim, fugiat nesciunt. Nostrum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estoque" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        <span class="text-colored">Nosso estoque</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-estoque">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#americanas" class="fw-bold text-start nav-link text-colored active">Picapes Americanas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#importadas" class="fw-bold text-start nav-link text-colored">Picapes Importadas</button>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="americanas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://wallpaperaccess.com/full/1633467.jpg" alt="Silverado">
+                                        <h5 class="text-colored fw-bold mt-2">Silverado</h5>
+                                        <p class="section-text">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.coolwallpapers.me/picsup/5086719-dodge-dodge-ram-1500.jpg" alt="Ram 1500">
+                                        <h5 class="text-colored fw-bold mt-2">Ram 1500</h5>
+                                        <p class="section-text">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://images.coolwallpapers.me/picsup/1973215-2015-ford-f-150__31.jpg" alt="Ford F-150">
+                                        <h5 class="text-colored fw-bold mt-2">Ford F-150</h5>
+                                        <p class="section-text">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="importadas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://th.bing.com/th/id/R.892b22f4a56715fe53820860d199c7fa?rik=N1aHLhAoFXgUGg&pid=ImgRaw&r=0" alt="Toyota Tundra">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                        <p class="section-text">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://wallpaperaccess.com/full/4603605.jpg" alt="Nissan Titan">
+                                        <h5 class="text-colored fw-bold mt-2">Nissan Titan</h5>
+                                        <p class="section-text">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"><span class="text-colored">Fale conosco</span></h2>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opicional)</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://github.com/dmacgos">
+                                        <i class="bi bi-github text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="section-text">
+                                Rua Teste Exemplo n 145, Bairro Bootstrap - Rio de Janeiro - RJ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container d-flex align-items-center justify-content-center p-3">
+            <h3>
+                <i class="fa-regular fa-copyright"></i>
+                Daniel Macedo 2024
+            </h3>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
